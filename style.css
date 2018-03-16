@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  h1{
+      text-align: center;
+  }
+  /* to center flex-items */
+  .flex-item {
+     margin: auto;
+  }
+  .img-responsive{
+      height: 100px;
+  }
+  .user{
+      height: 200px;
+      text-align: center;
+  }
+
+  #player1{
+      background-color: rgb(131, 187, 187);
+  }
+
+#player2{
+      background-color: rgb(245, 220, 237);
+  }
+  #result{
+    background-color: rgb(168, 170, 204);
+}
